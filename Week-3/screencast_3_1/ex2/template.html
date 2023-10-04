@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<hmtl>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Jnanpith</title>
+		<meta name="description" content="This page lists Jnanpith Awardees">
+	</head>
+	<body>
+		<h1>Awardees</h1>
+		<table>
+			<thead>
+				<tr>
+					<th>Year</th>
+					<th>Awardees</th>
+					<th>Language</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for jnanpith in jnanpith_data %}
+                <tr>
+                    <td>{{ jnanpith['year'] }}</td>
+                    <td>{{ jnanpith['awardees'] }}</td>
+                    <td>{{ jnanpith['language'] }}</td>
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</body>
+</html>
