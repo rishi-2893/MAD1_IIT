@@ -22,7 +22,6 @@ def login():
 		</form>
 	'''
 
-
 @app.route('/logout')
 def logout():
 	# remove the username from the session if it's there

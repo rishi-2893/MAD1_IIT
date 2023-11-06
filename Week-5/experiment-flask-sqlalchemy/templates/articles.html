@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles</title>
+</head>
+<body>
+    {% for article in articles %}
+
+    <h2> {{ article.title }} </h2>
+
+    {% for author in article.authors %}
+
+    <h3>Written by: 
+        {{ author.username }}
+    </h3>
+    {% endfor %}
+
+    <p>{{ article.content }}</p>
+    
+    {% endfor %}
+</body>
+</html>
