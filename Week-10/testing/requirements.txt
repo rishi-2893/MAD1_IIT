@@ -1,0 +1,9 @@
+Flask
+Flask-SQLAlchemy
+Flask
+Flask-Security
+email_validator
+bcrypt
+pytest
+coverage
+beautifulsoup4

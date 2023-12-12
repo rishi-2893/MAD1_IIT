@@ -5,6 +5,8 @@ class User(db.Model):
     user_id = db.Column(db.Integer, autoincrement=True, primary_key=True)
     username = db.Column(db.String, unique=True)
     email = db.Column(db.String, unique=True)
+    # set up relationship between User and Article
+
 
 class Article(db.Model):
     __tablename__ = 'article'

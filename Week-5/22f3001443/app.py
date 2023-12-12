@@ -99,7 +99,6 @@ def create():
         # Commit the changes for course enrollments
         db.session.commit()
 
-
         return redirect(url_for('home'))
 
 

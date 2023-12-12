@@ -1,0 +1,23 @@
+/* .units__container{
+    background-color: #212121;
+    color: #acacac;
+}
+
+#target{
+    background-color: #212121;
+    color: #acacac;
+}
+
+#target div{
+    background-color: #212121;
+    color: #acacac;
+} */
+
+#main-block :not(.mat-drawer, .mat-drawer-inner-container){
+    background-color: #212121;
+    color: #acacac;
+}
+
+.gcb-question-row{
+    margin: 0;
+}
