@@ -2,13 +2,9 @@
 import os
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from flask_restful import Resource, Api
+from flask_restful import Resource, Api, fields, marshal_with, reqparse
 
 from flask_cors import CORS
-
-from flask_restful import Resource
-from flask_restful import fields, marshal_with
-from flask_restful import reqparse
 
 from werkzeug.exceptions import HTTPException
 from flask import make_response
